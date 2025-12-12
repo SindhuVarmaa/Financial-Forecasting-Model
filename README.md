@@ -17,13 +17,6 @@ Visualization of forecasts
 
 Model evaluation and performance metrics
 
-📂 Project Structure
-Financial Forecasting Model/
-│
-├── Global_Currency_Forecaster.ipynb      # Main forecasting notebook
-├── Report_Global Forecasting.pdf         # Full analysis report
-├── Global Currency Forecaster_ppt.pptx   # Presentation / summary slides
-└── README.md                              # Project documentation
 
 🧠 Key Features
 ✔ Time-Series Forecasting
@@ -43,12 +36,13 @@ Evaluates multiple models (ARIMA, LSTM, Prophet, etc.) with metrics like RMSE, M
 Forecast plots, model summaries, and insights presented in both PDF report and PowerPoint presentation.
 
 🛠 Technologies Used
-Category	Tools & Libraries
-Programming	Python, Jupyter Notebook
-Data Analysis	Pandas, NumPy
-Visualization	Matplotlib, Seaborn, Plotly
-Forecasting Models	ARIMA, LSTM, Prophet (based on your notebook)
-Reporting	PDF, PowerPoint
+Category Tools & Libraries
+Programming	- Python, Jupyter Notebook
+Data Analysis -	Pandas, NumPy
+Visualization - Matplotlib, Seaborn, Plotly
+Forecasting Models	- ARIMA, LSTM, Prophet (based on your notebook)
+Reporting -	PDF, PowerPoint
+
 📈 How to Run the Notebook
 1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/financial-forecasting-model.git
@@ -56,9 +50,6 @@ cd financial-forecasting-model
 
 2️⃣ Install Required Libraries
 pip install -r requirements.txt
-
-
-(If you want, I can generate a perfect requirements.txt for you.)
 
 3️⃣ Open the Notebook
 jupyter notebook Global_Currency_Forecaster.ipynb
